@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ohmymem": {
+      "command": "/Users/ivan/Developer/gitea.hanwei.cc/ohmymem_project_mcp",
+      "args": [],
+      "cwd": "/Users/ivan/Developer/gitea.hanwei.cc/ohmymem"
+    }
+  }
+}

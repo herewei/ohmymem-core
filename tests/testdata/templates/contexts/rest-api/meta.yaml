@@ -1,0 +1,15 @@
+name: "REST API"
+id: "rest-api"
+type: "context"
+version: "1.0.0"
+description: "RESTful API design patterns"
+
+# context没有detect，由用户手动选择
+detect: null
+
+parent: null
+
+tags:
+  - "api"
+  - "http"
+  - "web"

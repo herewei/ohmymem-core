@@ -1,0 +1,26 @@
+name: "Go"
+id: "go"
+type: "language"                    # language | framework | context
+version: "1.0.0"
+description: "Go language best practices and conventions"
+
+# 检测规则
+detect:
+  files:
+    - "go.mod"
+  content_match:
+    - file: "go.mod"
+      pattern: "^module\\s+"
+
+# 兼容性
+compatibility:
+  min_version: "1.21"
+  
+# 依赖（可选，framework会用到）
+parent: null
+
+# 标签（用于搜索和分类）
+tags:
+  - "backend"
+  - "systems"
+  - "compiled"

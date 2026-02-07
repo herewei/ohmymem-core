@@ -1,0 +1,17 @@
+name: "Echo Framework"
+id: "go-echo"
+type: "framework"
+version: "1.0.0"
+description: "Echo v4 web framework patterns"
+
+detect:
+  content_match:
+    - file: "go.mod"
+      pattern: "github.com/labstack/echo"
+
+parent: "go"                        # 继承go语言的规则
+
+tags:
+  - "web"
+  - "http"
+  - "api"
